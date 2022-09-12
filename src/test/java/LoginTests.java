@@ -13,6 +13,8 @@ public class LoginTests extends TestBase {
         WebElement loginTab = wd.findElement(By.xpath("//a[@href='/login']"));
         loginTab.click();
 
+        pause(2000);
+
         //fill email pablo.thebestqa@gmail.com
         WebElement inputEmail = wd.findElement(By.xpath("//input[@placeholder='Email']"));
         inputEmail.click();
