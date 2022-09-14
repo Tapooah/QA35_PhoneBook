@@ -12,7 +12,7 @@ public class HomeWork_QA35 {
         wd.findElement(By.xpath("//a[@href]"));
 
         wd.findElement(By.cssSelector("[href ^='/ho']"));
-        wd.findElement(By.xpath("//*[starts-with(@href,'/ho']"));
+        wd.findElement(By.xpath("//[starts-with(@href,'/ho']"));
 
 
         wd.findElement(By.cssSelector("div.focus"));
